@@ -1,0 +1,135 @@
+<html>
+<head>
+	<title>Blog Layout</title>
+	<style>
+	body {
+		background-image: url('/Users/domanic/Desktop/artistic-photo-style.jpg');
+		background-size: cover;
+		font-family: Times new romans, cursive;
+		margin: 0;
+		padding: 0;
+	}
+
+	header {
+		background-color: #acdcce;
+		color: #fff;
+		padding: 20px;
+		text-align: center;
+		<img src="/Users/domanic/Desktop/istockphoto-490726872-612x612.jpg" alt="Italian Trulli"> width="200" height="300";
+	}
+
+	header .logo {
+		margin: 0 auto;
+		width: 1000px;
+	}
+
+
+	header nav ul li {
+		display: inline-block;
+		margin-right: 20px;
+	}
+
+	h1,h2,h3 {
+			colour:#aceeb8;
+			padding 20px;
+			text-align: left;
+	}
+		
+	main {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		padding: 20px;
+	}
+
+	article {
+		background-color: #f7f7f7;
+		margin: 20px;
+		padding: 20px;
+		width: 1500px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+
+	aside {
+		background-color: #f7f7f7;
+		margin: 20px;
+		padding: 20px;
+		width: 1000px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+
+	footer {
+		background-color: #333;
+		color: #fff;
+		padding: 10px;
+		text-align: center;
+		clear: both;
+	}
+	</style>
+</head>
+<body>
+	<!-- Header Section -->
+	<header>
+		<div class="logo">
+			<h1>LONELINESS</h1>
+		</div>
+	</header>
+	
+	<!-- Main Content Section -->
+	<main>
+		<!-- Blog Post 1 -->
+		<article>
+			<h1>Loneliness</h1>
+			<h2><bold>Loneliness: A Silent Epidemic</bold><br></h2>
+
+<p>Loneliness is a universal human experience that affects people of all ages, backgrounds, and cultures. While it is often associated with isolation, loneliness is more than just being alone—it is the emotional pain of feeling disconnected from others. In today’s fast-paced and digitally driven world, loneliness has become a growing concern, impacting mental and physical health.<br>
+<h3><strong>Causes of Loneliness<strong> <br></h3>
+Loneliness can arise from various factors, including social, psychological, and environmental influences. Some common causes include:
+	1.	Social Isolation – People who lack strong relationships, whether due to distance, work commitments, or loss of loved ones, often experience loneliness.
+
+	2.	Technology & Social Media – While digital communication connects people globally, it can also create a sense of emptiness, as virtual interactions may not provide deep emotional bonds.
+
+	3.	Life Transitions – Moving to a new city, changing jobs, retirement, or the loss of a close person can trigger loneliness.
+
+	4.	Mental Health Issues – Anxiety, depression, and low self-esteem can make it difficult for individuals to reach out and form meaningful relationships.
+
+	5.	Aging – Elderly individuals, especially those living alone, often face loneliness due to limited mobility and the loss of lifelong companions.<br>
+
+<h3><strong>Effects of Loneliness</strong></h3><br>
+Loneliness has severe consequences on both mental and physical well-being. Some of the major effects include:
+	•	Mental Health Decline – Prolonged loneliness can lead to depression, anxiety, and stress.
+
+	•	Physical Health Risks – Studies show that loneliness increases the risk of heart disease, high blood pressure, and weakened immunity.
+
+	•	Cognitive Decline – In older adults, loneliness is linked to memory loss and a higher risk of developing dementia.
+
+	•	Reduced Self-Worth – A lonely individual may develop feelings of worthlessness, leading to withdrawal from social activities.<br>
+
+<h3><strong>Overcoming Loneliness</strong></h3><br>
+While loneliness can feel overwhelming, there are several ways to combat it:
+	1.	Building Strong Relationships – Investing time in friendships, family bonds, and meaningful connections helps reduce loneliness.
+
+	2.	Engaging in Social Activities – Joining clubs, volunteering, or participating in community events can foster a sense of belonging.
+
+	3.	Limiting Social Media Use – Reducing screen time and focusing on real-life interactions can help improve emotional connections.
+
+	4.	Practicing Self-Care – Engaging in hobbies, exercise, and meditation can improve mental well-being.
+
+	5.	Seeking Professional Help – Therapy and counseling can provide guidance to overcome feelings of loneliness.<br>
+
+<h2>Conclusion</h2><br>
+Loneliness is a pressing issue that affects millions worldwide. While it is a natural emotion, prolonged loneliness can have serious consequences on health and well-being. By fostering genuine human connections, engaging in activities, and seeking support, individuals can overcome loneliness and lead fulfilling lives. Society as a whole must recognize loneliness as a significant issue and work toward creating inclusive and supportive communities.<br>
+</p>
+		</article>
+		
+	</main>
+	<aside>
+		<h3>Recent Posts</h3>
+		<ul>
+			<li><a href="https://pinchofyum.com">Homily food blog</a></li>
+			<li><a href="https://www.wired.com/tag/blogs/">Latest news post</a></li>
+			<li><a href="https://pagesix.com">know about your celebrity</a></li>
+		</ul>
+	</aside>
+</body>
+</html>
