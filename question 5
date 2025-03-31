@@ -1,0 +1,67 @@
+<html>
+<head>
+	<title>'NEW DELHI'</title>
+	<style>
+		body {
+			background-color:#7cd4d4; 
+			font-family: cursive, sans-serif;
+		}
+		
+		.header {
+			background-color: #21b83e;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		
+		.image {
+			width: 100%;
+			height: 500px;
+			background-image: url('/Users/domanic/Desktop/87278130.cms.webp');
+			background-size: cover;
+			background-position: center;
+			margin-top: 20px;
+		}
+		
+		.content {
+			padding: 20px;
+			margin-top: 20px;
+			background-color: #57ef89;
+			border: 1px solid #ddd;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		}
+		
+		.content h2 {
+			color: #333;
+			margin-top: 0;
+		}
+		
+		.content p {
+			font-size: 18px;
+			color: #666; 
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>The capital city : DELHI</h1>
+	</div>
+	
+	<div class="image"></div>
+	
+	<div class="content">
+		<h2>The essence of diversity</h2>
+		<p>Delhi, the capital of India, is a vibrant city that seamlessly blends history, culture, and modernity. As one of the oldest inhabited cities in the world, Delhi has witnessed the rise and fall of several dynasties, leaving behind a rich architectural and cultural heritage. Today, it stands as the political, economic, and cultural hub of India.</p>
+		
+		<h2><bold>Historical & Cultural Significance</bold></h2>
+		<ul>
+			<li>🏰 Red Fort – A magnificent Mughal fortress and a symbol of India’s independence.</li>
+			<li>Qutub Minar – The tallest brick minaret in the world, built in the 12th century.</li>
+			<li>Humayun’s Tomb – A stunning Mughal-era mausoleum that inspired the Taj Mahal.</li>
+		</ul>
+		
+
+	</div>
+</body>
+</html>
