@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GRWM</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #fffaf7;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    background-color: #fefcfb;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 3rem;
+    gap: 2rem;
+    background-color: #fdf2f0;
+}
+
+.hero-text {
+    max-width: 50%;
+    font-family: fantasy;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: fantasy;
+}
+
+.hero-text p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    font-family: monospace;
+}
+
+.hero-text button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    background-color: #d99f8b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-image {
+    max-width: 40%;
+    border-radius: 12px;
+}
+
+.collections {
+    padding: 3rem;
+    text-align: center;
+}
+
+.collections h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.collections-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card {
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-weight: 500;
+}
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="logo">GRWM</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Get Ready With Me</h1>
+            <p>Best festive collection are here</p>
+            <button>Shop Now</button>
+        </div>
+        <img src="https://www.elliewilde.com/uploads/images/products/1001/0d21c6f1_5a66_424f_85ed_e606dbb27ae8.webp?w=740" alt="Vase" class="hero-image">
+    </section>
+
+    <section class="collections">
+        <h2>Our Latest collections</h2>
+        <div class="collections-grid">
+            <div class="card">
+                <img src="https://i.pinimg.com/736x/5e/f4/fa/5ef4fa997cb31b52dc8ac5161f4d5801.jpg" alt="Product 1" width="100" height="200">
+                <p>Party Wear</p>
+            </div>
+            <div class="card">
+                <img src="https://i.pinimg.com/736x/9e/96/89/9e96894786c17665a19ba5b6235dd35c.jpg" alt="Product 2" width="100" height="200">
+                <p>Formal wear</p>
+            </div>
+            <div class="card">
+                <img src="https://i.pinimg.com/236x/0a/b0/5b/0ab05be42133f097e08d2c26b7fe683b.jpg" alt="Product 3" width="100" height="200">
+                <p>Prom Gowns</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
